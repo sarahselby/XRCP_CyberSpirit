@@ -5,18 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Activities_XRCP/GroupProjectTemplate/Scenes/0_StoryExampleScene.unity
-    guid: f05aece6d85e66c49af9e0f2785b76da
-  - enabled: 0
-    path: Assets/Activities_XRCP/GroupProjectTemplate/Scenes/1_StoryExampleScene.unity
-    guid: 29144926b3388de42a284033db9c82e6
-  - enabled: 0
-    path: Assets/Activities_XRCP/SarahCook/Scenes/ExampleTeamMateScene.unity
-    guid: 9bd2fc838bc534a47a5272cd0574a072
   - enabled: 1
     path: Assets/Activities_XRCP/SarahCook/Scenes/VR_Room.unity
     guid: 7733bd52b436bda4b9a827186a44ca70
+  - enabled: 1
+    path: Assets/Activities_XRCP/SarahCook/Scenes/infiniteCyberSpace.unity
+    guid: c91c6d3ea1a691f4b8e96d46a6ce8f34
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f3d36b094c7e90a48bfeecc8253553a0,
       type: 2}
