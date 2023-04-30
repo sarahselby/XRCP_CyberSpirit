@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-const serverAddress = 'ws://localhost:8080/';
+const clientServerAddress = 'ws://localhost:8080/';
 
 // Create a WebSocket server
 const wss = new WebSocket.Server({ port: 8080 });
