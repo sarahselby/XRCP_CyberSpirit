@@ -89,13 +89,13 @@ public class GameManager : MonoBehaviour
     }
 
     //Welcome moment
-    private void HandleBeginning()
+    public void HandleBeginning()
     {
         //Maybe there's something specific you need to do in code here.
         sceneLoader.GoToSceneAsync("InfiniteCyberSpace");
     }
 
-    private void HandleMiddle()
+    public void HandleMiddle()
     {
         //Maybe there's something specific you need to do in code here.
         sceneLoader.GoToSceneAsync("VR_Room");

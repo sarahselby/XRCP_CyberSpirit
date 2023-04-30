@@ -981,8 +981,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156323084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 382751372}
@@ -3517,7 +3517,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382751371}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5372,6 +5372,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3610246571164648352, guid: 9a338fe9445483c439d6bc834f54798e,
+        type: 3}
+      propertyPath: fadeScreen
+      value: 
+      objectReference: {fileID: 1292941689519557743, guid: bffdc5f056c979e4f8babf9c86f80624,
+        type: 3}
+    - target: {fileID: 3610246571164648352, guid: 9a338fe9445483c439d6bc834f54798e,
+        type: 3}
+      propertyPath: OnLoad.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610246571164648352, guid: 9a338fe9445483c439d6bc834f54798e,
+        type: 3}
+      propertyPath: OnLoad.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610246571164648352, guid: 9a338fe9445483c439d6bc834f54798e,
+        type: 3}
+      propertyPath: OnLoad.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3610246571164648353, guid: 9a338fe9445483c439d6bc834f54798e,
         type: 3}
       propertyPath: m_Name
@@ -7053,6 +7074,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726284870}
   m_Mesh: {fileID: 2534964839176971238, guid: 42471e7288ca8cd48a065ea0d8975cd3, type: 3}
+--- !u!114 &739157287 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3610246571164648352, guid: 9a338fe9445483c439d6bc834f54798e,
+    type: 3}
+  m_PrefabInstance: {fileID: 532900181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb5eb5d587a01b459a12b71904d16a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &741041754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7605,15 +7638,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781396233}
-  m_LocalRotation: {x: 0.003215654, y: 0.029149346, z: 0.012049369, w: -0.99949735}
-  m_LocalPosition: {x: 2.9, y: 0, z: 1.599}
+  m_LocalRotation: {x: 0, y: 0.9711343, z: -0, w: -0.23853342}
+  m_LocalPosition: {x: 2.83, y: 1.5, z: 0.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 156323085}
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -0.409, y: 356.664, z: -1.369}
+  m_LocalEulerAnglesHint: {x: 0, y: 207.6, z: 0}
 --- !u!1 &785930251
 GameObject:
   m_ObjectHideFlags: 0
@@ -16835,7 +16868,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 739157287}
+        m_TargetAssemblyTypeName: VRCPSceneLoader, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: infiniteCyberSpace
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
