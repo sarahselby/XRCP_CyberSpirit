@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-const serverAddress = 'wss://dark-heathered-fuschia.glitch.me/';
+const serverAddress = 'wss://your-app-name.glitch.me/';
 
 const ws = new WebSocket(serverAddress, {
 	headers: {
